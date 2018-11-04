@@ -1,6 +1,6 @@
 (function () {
 	"use strict";
-	console.log("superhero started");
+	console.log("superhero SEAF started");
 
 	//constructor function
 	function superhero(hero1, hero2, hero3, hero4) {
