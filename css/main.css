@@ -1,0 +1,54 @@
+
+body{
+  background-color: rgb(247, 247, 247);
+}
+
+.mainBox{
+    width: 900px;
+    margin: auto;
+    border: dashed 5px rgb(92, 119, 255);
+  }
+
+h1
+{
+  color:rgb(101, 101, 255);
+  text-align: center;
+}
+h2
+{
+  color: rgb(101, 101, 255);
+  text-align: center;
+}
+
+.hidden{
+  display:none;
+}
+
+.img {
+  
+  position: relative;
+  width: 450px; 
+  height: 281.5px;
+
+}
+
+.superman {
+   background: url(../images/superman.jpg) ;
+  float: left;
+  background-size: 100% 100%;
+}
+.batman {
+  background: url(../images/batman.jpg) ;
+  float: right;
+  background-size: 100% 100%;
+}
+.deadpool {
+  background: url(../images/deadpool.jpg) ;
+  float: left;
+  background-size: 100% 100%;
+}
+.ironman {
+  background: url(../images/ironman.jpg) ;
+  float: right;
+  background-size: 100% 100%;
+}
