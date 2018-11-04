@@ -17,7 +17,7 @@
 
 
 		var imageBox = document.querySelector("#imageBox");
-		var resize = false;
+		var sizeChange = false;
 
 
 
@@ -30,10 +30,10 @@
 
 		//functions
 		function onClick(event) {
-			resize = true;
+			sizeChange = true;
 
 
-			if (resize === true) {
+			if (sizeChange === true) {
 
 				//x values
 				var x = event.clientX - imageBox.getBoundingClientRect().left;
@@ -81,7 +81,7 @@
 
 		}
 		function onClickRelease() {
-			resize = false;
+			sizeChange = false;
 
 			superman.style.position = "relative";
 			batman.style.position = "relative";
@@ -109,7 +109,8 @@
 
 	}
 	
-
+	//new object
 	var finalSuperhero = new superhero(".superman", ".batman", ".deadpool", ".ironman");
+	//container size
 	finalSuperhero.contSize(897, 560);
 })();
